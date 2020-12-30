@@ -1,3 +1,24 @@
 #map {
-    height: 720px; 
+    height: 600px;
+}
+.top-nav{
+    top: 0;
+    position: fixed !important;
+    z-index: 10011;
+    width: 100%;
+}
+
+.body-container{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-container{
+    width: 100%;
+}
+
+.side-menu{
+    width: 25%;
+    background-color: #dcdcdcd1;
 }
